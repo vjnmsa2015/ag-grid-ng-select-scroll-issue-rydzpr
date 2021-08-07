@@ -1,0 +1,13 @@
+<ag-grid-angular 
+    style="width: 400px; height: 200px;" 
+    class="ag-theme-balham"
+    [rowData]="rowData" 
+    [columnDefs]="columnDefs"
+    [frameworkComponents]="frameworkComponents"
+    [gridOptions]="{rowHeight: 40}"
+    >
+</ag-grid-angular>
+<h4>Row data from button 1: </h4>
+<pre>{{rowDataClicked1 | json}}</pre>
+<h4>Row data from button 2: </h4>
+<pre>{{rowDataClicked2 | json}}</pre>
